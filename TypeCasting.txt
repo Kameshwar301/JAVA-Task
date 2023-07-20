@@ -1,0 +1,12 @@
+class TypeCasting{
+	public static void main(String args[]){
+	int a = 5;
+	double b = a;// Automatic casting also known as Widening
+	System.out.println(a);
+	System.out.println(b);
+
+	double c = 10.51d;
+	int d = (int) c; //why(int) because we try to change double into int. So, we declare manually int in (int) 
+	}
+
+}
